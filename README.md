@@ -1,2 +1,2 @@
-# youtube-downloader-mp3
+# YouTube Video Downloader
 Téléchargeur de vidéo YouTube en MP3
