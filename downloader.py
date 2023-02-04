@@ -6,11 +6,11 @@ video_url = str(input("Insert YouTube video link/Insérer le lien d'une vidéo Y
 
 yt = YouTube(video_url)
 video = yt.streams.filter(only_audio=True).first()
-video.download("C:\Users\%USERNAME%\Downloads")
+video.download("C:\Users\Username\Downloads")
 
-file_path = "C:\Users\%USERNAME%\Downloads" + video.default_filename
+file_path = "C:\Users\Username\Downloads" + video.default_filename
 
 clip = mp.AudioFileClip(file_path)
-clip.write_audiofile("C:\Users\%USERNAME%\Downloads" + video.default_filename[:-4] + ".mp3")
+clip.write_audiofile("C:\Users\Username\Downloads" + video.default_filename[:-4] + ".mp3")
 
 os.remove(file_path)
