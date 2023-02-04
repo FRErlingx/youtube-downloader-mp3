@@ -2,6 +2,7 @@ from pytube import YouTube
 import moviepy.editor as mp
 import os
 
+readme = print("Penser à lire le readme !/ Remember to read the readme !")
 video_url = str(input("Insert YouTube video link/Insérer le lien d'une vidéo YouTube : "))
 
 yt = YouTube(video_url)
