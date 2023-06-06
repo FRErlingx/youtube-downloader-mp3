@@ -1,2 +1,4 @@
 # YouTube Video Downloader
-Téléchargeur de vidéo YouTube en MP3
+The API used in this code no longer works or has been updated.
+
+OBSOLETE CODE
